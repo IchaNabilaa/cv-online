@@ -1,0 +1,39 @@
+import React from "react";
+
+const CV = () => {
+  return (
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+      <div className="bg-white shadow-lg rounded-2xl p-6 w-full max-w-lg">
+        <h1 className="text-3xl font-bold text-center text-gray-800">Icha Nabila</h1>
+        <p className="text-center text-gray-600">NIM: 232302016</p>
+        <p className="text-center text-gray-600">Prodi: Komputerisasi Akuntansi</p>
+        
+        <div className="mt-4">
+          <h2 className="text-xl font-semibold text-gray-700">Tentang Saya</h2>
+          <p className="text-gray-600 mt-2">
+            Saya adalah mahasiswa yang tertarik pada bidang Komputerisasi Akuntansi,
+            dengan semangat belajar tinggi dan keterampilan dalam pengolahan data keuangan.
+          </p>
+        </div>
+
+        <div className="mt-4">
+          <h2 className="text-xl font-semibold text-gray-700">Keahlian</h2>
+          <ul className="list-disc list-inside text-gray-600 mt-2">
+            <li>Akuntansi Digital</li>
+            <li>Analisis Data Keuangan</li>
+            <li>Microsoft Excel & Spreadsheet</li>
+            <li>Manajemen Sistem Informasi</li>
+          </ul>
+        </div>
+
+        <div className="mt-4">
+          <h2 className="text-xl font-semibold text-gray-700">Kontak</h2>
+          <p className="text-gray-600 mt-2">Email: ichanabila@example.com</p>
+          <p className="text-gray-600">LinkedIn: linkedin.com/in/ichanabila</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CV;
